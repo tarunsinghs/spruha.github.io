@@ -1,0 +1,157 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+   background-size: cover;
+   justify-content: space-between;
+   padding: 10px 0px;  
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out
+    
+}
+.nav-list a:hover{
+    color: orangered;
+}
+.formcontent{
+    font-family: sans-serif;
+}
+
+.container{
+    margin-top: 2%;
+    padding: 28px;
+    box-shadow: 0 15px 20px #ABB2B9;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    border-radius: 30px;
+    padding-bottom: 2px;
+    margin-left:15%;
+    margin-right: 0px;
+    display: flex block inline ;
+    width: 100vh;
+    
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #2f4f4f;
+    padding-bottom: 8px ;
+    border-bottom: 1px solid silver;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px 0 ;
+}
+.input-box{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    border-bottom: white;
+    margin-bottom: 10px; 
+}
+.input-box:nth-child(2n){
+    justify-content: left;
+}
+.input-box input{
+    height: 40px;
+    width: 95%;
+    color: white;
+    padding: 0 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px; 
+}
+#message{
+    width: 100%;
+}
+button{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 9px;
+    padding: 6px;
+    margin-top: 5px;
+}
+.ipbox{
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 15px;
+}
+.contactus1{
+    display: flex;
+    border: none;
+    justify-content: center;
+    color: black;
+   
+}
+.contactus2{
+    display: flex;
+    border: none;
+    justify-content: center;
+    color: orange;
+    padding-bottom: 4px;
+}
+.contactinfo{
+    border: none;
+    display: flex block;
+    width: 50%;
+    padding-left: 8%;
+    height: min-content;
+    margin-bottom: 0%;
+    color: black;
+    margin-left: 12%; 
+    padding-top: 2%;   
+}
+.info{
+    border: none;
+    height: min-content;
+    width: min-content;
+    padding-top: 2%;
+}
+#con{
+    font-size: 24px;
+    margin-bottom: 10%;
+   
+}
+p{
+    font-size:13px ;
+}
+.cbox{
+    display: flex block ;
+    margin: 0%;
+    border: none;
+    flex-direction: column;
+    color: yellow;
+    width: 30%;
+    padding-left: 10%;
+}
+.cbox .info{
+    color: black;
+    margin-left: 9%;
+    margin-top: 0%;
+}
+.maincoc{
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
